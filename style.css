@@ -1,0 +1,632 @@
+*{
+	box-sizing: border-box;
+
+}
+.portfolio{
+	font-family: Sans-serif;
+	background-color: ;
+	color:black;
+	font-weight: bolder;
+}
+.line1{
+	width:30px;
+	padding: 3px;
+	margin: 1px;
+	background-color: black;
+	height: auto;
+}
+.menu{
+	height: 30px;
+	width: 30px;
+	visibility: hidden;
+	border: none;
+	background-color: white;
+	display: block;
+}
+.kaman a{
+	color:gray;
+	padding:8px;
+	display: block;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+}
+.kaman a:hover{
+		color:white;
+		background-color: black;
+	}
+body{
+	font-family:  ;
+	background-color:burgundy ;
+
+}
+.head{
+	width: 100%;
+
+}
+/*
+nav ul{
+	list-style-type: none;
+	
+
+}
+nav ul li{
+	float:left;
+	padding: 10px;
+	font-size: 20px;
+	background-color: ;
+	opacity:;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color:black;
+	padding: 15px;
+}
+*/
+nav{
+	display: flex;
+	padding:10px;
+	margin:15px;
+	flex-wrap: wrap;
+
+
+}
+nav div{
+	padding:20px;
+}
+nav a{
+	padding: 10px;
+	font-size: 20px;
+}
+nav a:link{
+	color:black;
+}
+nav a:hover{
+	color:gray;
+	background-color; ;
+	padding: 10px;
+	text-decoration: none;
+	border-radius: 10px;
+	text-decoration: underline;
+}
+nav a:visited {
+	color:gray;
+}
+.fluid-container{
+	display:flex;
+	flex-wrap: flex;
+	flex-direction: row;
+	width:100%;
+	height: 600px;
+}
+.profile{
+	margin-top:10px;
+	width:50%;
+	height: ;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	justify-content: center;
+	opacity: ;
+}
+.name{
+	padding-left:30px;
+	padding-top:20px;
+	margin-top:40px;
+	font-size:50px;
+	font-family: Calibri;
+	font-weight: bolder;
+	color:;
+	opacity:0.7;
+	background-color: ;
+}
+.skills{
+	padding:50px;
+	margin-right:0px;
+	margin-left:70px;
+	font-family: arial;
+	color:white;
+	font-size: 35px;
+	font-weight: ;
+	background-color: gray;
+	text-align: center;
+}
+.explainer{
+	background-color: ;
+	color:black;
+	font-style: normal;
+	padding:20px;
+	opacity: 1.0;
+	font-family: calibri;
+	font-size: 20px;
+}
+/*
+ol{
+	background-color: lightcoral;
+	color:;
+	width: 100%;
+}
+ol li{
+	display:block;
+	float: left;
+	padding:10px;
+	font-family: monospace;
+	font-weight: bolder;
+	font-size:30px;
+	font-family: ;
+
+}
+li a:link{
+	color:lightcoral;
+}
+li a:hover{
+	color:lightcoral;
+	background-color: ;
+	padding: 10px;
+	text-decoration: none;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+li a:active{
+	color:green;
+}
+*/
+.container{
+	width:100%;
+	display: flex;
+	flex-wrap: flex;
+	flex-direction: row;
+}
+.languages{
+	flex: 50%;
+	float: ;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+	padding-top: 40px;
+	font-weight: ;
+	color:gray;
+}
+.side-text{
+	flex:50%;
+	float: ;
+	color:gray;
+	font-family: calibri;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: ;
+	padding-left:90px;
+	padding-right:90px;
+	padding-top: 10px;
+	border: 1px solid gray;
+}
+.containment{
+	width:90%;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.other-skills{
+	flex: 30%;
+	color:gray;
+	font-family: calibri;
+	font-size: 30px;
+	font-weight: bold;
+	background-color: ;
+	border: 1px solid gray;
+	margin-left: 30px;}
+
+::placeholder{
+	text-align: center;
+}
+input[type=text]{
+	width:500px;
+	text-align: center;
+}
+.Software{
+	flex:50%;
+	float: ;
+	color:gray;
+	font-family: calibri;
+	height: 200px;
+	align-items: center;
+	justify-content: center;
+	font-size: 25px;
+	padding-top: 20px;
+	font-weight: ;
+	padding-left: 10px;
+}
+.project{
+	margin-top:0px;
+	width:100%;
+	height: 100%;
+	background-color: ;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding-left: 30px;
+}
+.image{
+	background-image: url("");
+	height: 100%;
+	flex: 50%;
+	margin-top: 30px;
+	background-repeat: no-repeat;
+}
+.side {
+	flex: 50%;
+	height: 100%;
+}
+
+.fixed-position{
+	position: fixed;
+	bottom: 0px;
+
+}
+.fixed-positionn{
+	position: fixed;
+	top: 200px;
+	left: 0px;
+
+}
+.system-images{
+	display:flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.img1,.img2{
+	width: %;
+}
+
+/* animation section */
+.hilla
+{
+		right: -2px;
+		position: ;
+		animation-name: hillary; 
+		animation-duration:2s;
+		background-color: ;
+		animation-delay: ;
+		position: relative;
+		transition:;
+		animation-iteration-count: ;
+
+	}
+	.hillaa
+{
+		right: -2px;
+		position: ;
+		animation-name: hillary; 
+		animation-duration: 2s;
+		background-color: ;
+		animation-delay:3s ;
+		position: relative;
+		animation-direction:;
+
+	}
+	.hillaaa
+{
+		right: -2px;
+		position: ;
+		animation-name: hillary; 
+		animation-duration: 2s;
+		background-color: ;
+		animation-delay:5s ;
+		position: relative;
+		transition:  ;
+		animation-iteration-count: ;
+
+	}
+	.hillaaaa
+{
+		right: -2px;
+		position: ;
+		animation-name: hillary; 
+		animation-duration: 2s;
+		background-color: ;
+		animation-delay:7s ;
+		position: relative;
+		transition:;
+		animation-iteration-count: ;
+
+	}
+	.hillaaaaa
+{
+		right: -2px;
+		position: ;
+		animation-name: hillary; 
+		animation-duration: 2s;
+		background-color: ;
+		animation-delay:9s ;
+		position: relative;
+		transition:;
+		animation-iteration-count: ;
+
+	}
+	.imagess{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+
+
+
+	/*
+	images styling begins here
+	*/
+	div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+	/*
+	images styling ends here
+	*/
+
+
+
+
+
+
+	@keyframes hillary{
+		from{
+			color:white;
+			right: -80px;
+			background-color: lightcoral;
+
+		}
+		to{
+			color: black;
+			right: -10px;
+
+		}
+	}
+
+/*responsive design start*/
+@media only screen and (max-width: 768px) {
+  
+	
+  .fluid-container{
+  	flex-direction: column;
+  	margin-top: -200px;
+  }
+  .menu{
+		visibility: hidden;
+	}
+  .profile{
+  	width:100%;
+  }
+  .skills{
+  	width:100%;
+  	font-size: 30px;
+  	text-align: center;
+  }
+  .information{
+  	width: 100%;
+  }
+  .container{
+  	flex-direction:column-reverse;
+  }
+  .languages{
+  	width: 100%;
+  	text-align: center;
+  }
+  .side-text{
+  	width: 100%;
+  }
+  .containment{
+  	flex-direction: column;
+  }
+  .other-skills{
+  	width: 100%
+  }
+  .Software{
+  	width: 100%;
+  	justify-content: center;
+  }
+  #about{
+  	margin-top: 300px;
+  	font-size: 100%;
+  }
+
+  .project{
+  	flex-direction: column;
+  }
+  .image{
+  	width:100%;
+  }
+  .side{
+  	width: 100%;
+  	font-size: 20px;
+  }
+  
+  .img1,.img2{
+	width: 100%;
+}
+.system-images{
+	display:flex;
+	flex-direction: column;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+}
+@media only screen and (max-width: 500px) {
+	
+	.intro{
+		font-size: 20px;
+		text-align: center;
+		padding:2px;
+		margin: 0px;
+
+	}
+  nav {
+		
+		visibility: hidden;
+	}
+	.head{
+		
+	}
+	.menu{
+		visibility: visible;
+		float: right;
+		margin-right: 30px;
+	}
+	.portfolio{
+		font-size: 25px;
+	}
+	nav{
+		padding: 0px;
+		margin: 10px;
+		border: none;
+		text-align: center;
+		background-color: ;
+		color:;
+	}
+	div a{
+		color:white;
+	}
+	.maill{
+		font-size: 20px;
+		width:100%;
+	}
+	.explainer{
+		margin: :0px;
+		padding: 5px;
+		text-align: center;
+	}
+  .fluid-container{
+  	flex-direction: column;
+  	margin-top: -260px;
+  }
+  .profile{
+  	width:100%;
+  }
+  .skills{
+  	width:100%;
+  	font-size: 30px;
+  	text-align: center;
+  	padding: 0px;
+  	margin: 0px;
+  }
+  .information{
+  	width: 100%;
+  }
+  .container{
+  	flex-direction:column-reverse;
+  }
+  .languages{
+  	width: 100%;
+  	text-align: center;
+  	padding: 5px;
+  	
+  }
+  .side-text{
+  	width: 100%;
+  	padding: 10px;
+  	text-align: center;
+  }
+  .containment{
+  	flex-direction: column;
+  }
+  .other-skills{
+  	width: 100%
+  	padding: 10px;
+  	text-align: center;
+  }
+  .Software{
+  	width: 100%;
+  	justify-content: center;
+  	padding: 5px;
+  	margin: 10px;
+  	text-align: center;
+  }
+  #about{
+  	margin-top: 390px;
+  	font-size: 100%;
+  }
+
+  .project{
+  	flex-direction: column;
+  }
+  .image {
+  	width:100%;
+  }
+  .side{
+  	width: 100%;
+  	font-size: 20px;
+  	text-align: center;
+  }
+  
+  .train,.mwalimu{
+	width: 100%;
+}
+.system-images{
+	display:flex;
+	flex-direction: column;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+input[type=text]{
+	width:100%;
+}
+
+
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
