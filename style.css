@@ -24,7 +24,7 @@
 	display: block;
 }
 .kaman a{
-	color:gray;
+	color:black;
 	padding:8px;
 	display: block;
 	text-decoration: none;
@@ -32,8 +32,9 @@
 	text-align: center;
 }
 .kaman a:hover{
-		color:white;
-		background-color: black;
+		color:blue;
+		background-color: ;
+		border: 1px solid black;
 	}
 body{
 	font-family:  ;
@@ -71,9 +72,10 @@ nav{
 	flex-wrap: wrap;
 
 
+
 }
 nav div{
-	padding:20px;
+	padding:15px;
 }
 nav a{
 	padding: 10px;
@@ -83,15 +85,16 @@ nav a:link{
 	color:black;
 }
 nav a:hover{
-	color:gray;
+	color:black;
 	background-color; ;
 	padding: 10px;
 	text-decoration: none;
 	border-radius: 10px;
-	text-decoration: underline;
+	text-decoration:;
+	border: 1px solid black;
 }
 nav a:visited {
-	color:gray;
+	color:black;
 }
 .fluid-container{
 	display:flex;
@@ -385,6 +388,36 @@ div.desc {
   float: left;
   width: 24.99999%;
 }
+
+.experience{
+	display:flex;
+	flex-wrap: wrap;
+	width: 100%;
+	flex-direction: row;
+}
+.ict{
+flex: 33%;
+}
+.pet{
+flex: 33%;
+}
+.red{
+flex: 33%;
+}
+
+.foot{
+	display:flex;
+	flex-wrap: wrap;
+	width: 100%;
+	flex-direction: row;
+}
+.details{
+	flex:50%;
+}
+.linkss{
+	flex:50%;
+}
+
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
@@ -417,7 +450,7 @@ div.desc {
 
 
 
-	@keyframes hillary{
+	@keyframes {
 		from{
 			color:white;
 			right: -80px;
@@ -434,7 +467,6 @@ div.desc {
 /*responsive design start*/
 @media only screen and (max-width: 768px) {
   
-	
   .fluid-container{
   	flex-direction: column;
   	margin-top: -200px;
@@ -474,7 +506,7 @@ div.desc {
   	justify-content: center;
   }
   #about{
-  	margin-top: 300px;
+  	margin-top: 490px;
   	font-size: 100%;
   }
 
@@ -499,8 +531,23 @@ div.desc {
 	flex-wrap: wrap;
 	justify-content: center;
 }
+.mimi{
+	width: 200px;
+	height: 200px;
 
 
+}
+.experience{
+			flex-direction: column;
+			padding-left: 20px;
+	}
+	.foot{
+		flex-direction: column;
+	}
+@media only screen and (max-width: 1030px){
+.mimi{
+	width: 200px;
+	height: 200px;
 }
 @media only screen and (max-width: 500px) {
 	
@@ -593,7 +640,7 @@ div.desc {
   	text-align: center;
   }
   #about{
-  	margin-top: 390px;
+  	margin-top: 470px;
   	font-size: 100%;
   }
 
@@ -619,10 +666,19 @@ div.desc {
 	flex-wrap: wrap;
 	justify-content: center;
 }
+.mimi{
+	width: 200px;
+	height: 200px;
+}
 input[type=text]{
 	width:100%;
 }
-
+.experience{
+			flex-direction: column;
+	}
+	.foot{
+	width:100%;
+	}
 
 }
 .clearfix::after {
