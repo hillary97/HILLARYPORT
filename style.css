@@ -38,7 +38,7 @@
 	}
 body{
 	font-family:  ;
-	background-color:burgundy ;
+	background-color: ;
 
 }
 .head{
@@ -68,33 +68,41 @@ nav ul li a{
 nav{
 	display: flex;
 	padding:10px;
-	margin:15px;
+	margin:px;
 	flex-wrap: wrap;
-
+	border: 1px solid orange;
+	background-color: ;
+	border-bottom: 2px solid white;
 
 
 }
 nav div{
 	padding:15px;
+	background-color: ;
+	width: ;
+
 }
 nav a{
 	padding: 10px;
 	font-size: 20px;
+	color:white;
 }
 nav a:link{
-	color:black;
+	color:white;
 }
 nav a:hover{
-	color:black;
-	background-color; ;
+	color:white;
+	background-color:;
 	padding: 10px;
 	text-decoration: none;
 	border-radius: 10px;
 	text-decoration:;
 	border: 1px solid black;
+	font-weight: bolder;
 }
 nav a:visited {
-	color:black;
+	color:white;
+
 }
 .fluid-container{
 	display:flex;
@@ -132,7 +140,7 @@ nav a:visited {
 	color:white;
 	font-size: 35px;
 	font-weight: ;
-	background-color: gray;
+	background-color: ;
 	text-align: center;
 }
 .explainer{
@@ -189,12 +197,12 @@ li a:active{
 	font-size: 20px;
 	padding-top: 40px;
 	font-weight: ;
-	color:gray;
+	color:black;
 }
 .side-text{
 	flex:50%;
 	float: ;
-	color:gray;
+	color:black;
 	font-family: calibri;
 	font-size: 30px;
 	font-weight: bold;
@@ -202,7 +210,7 @@ li a:active{
 	padding-left:90px;
 	padding-right:90px;
 	padding-top: 10px;
-	border: 1px solid gray;
+	border: 1px solid orange;
 }
 .containment{
 	width:90%;
@@ -212,12 +220,12 @@ li a:active{
 }
 .other-skills{
 	flex: 30%;
-	color:gray;
+	color:black;
 	font-family: calibri;
 	font-size: 30px;
 	font-weight: bold;
 	background-color: ;
-	border: 1px solid gray;
+	border: 1px solid orange;
 	margin-left: 30px;}
 
 ::placeholder{
@@ -226,11 +234,13 @@ li a:active{
 input[type=text]{
 	width:500px;
 	text-align: center;
+	padding: 10px;
+	font-size: 20px;
 }
 .Software{
 	flex:50%;
 	float: ;
-	color:gray;
+	color:black;
 	font-family: calibri;
 	height: 200px;
 	align-items: center;
@@ -257,9 +267,13 @@ input[type=text]{
 	margin-top: 30px;
 	background-repeat: no-repeat;
 }
+.project{
+	background-color: ;
+}
 .side {
 	flex: 50%;
 	height: 100%;
+	color:black;
 }
 
 .fixed-position{
@@ -394,6 +408,7 @@ div.desc {
 	flex-wrap: wrap;
 	width: 100%;
 	flex-direction: row;
+	background-color: ;
 }
 .ict{
 flex: 33%;
@@ -464,7 +479,51 @@ flex: 33%;
 		}
 	}
 
-/*responsive design start*/
+
+
+/*.......................................................responsive design start.............................................................................*/
+@media only screen and (max-width: 1100px) {
+	.fluid-container{
+  	flex-direction: column;
+  	margin-top: -200px;
+  }
+  .menu{
+		visibility: hidden;
+	}
+  .profile{
+  	width:100%;
+  }
+  .ski{
+  	margin: 2px;
+  }
+   nav {
+		
+		visibility: hidden;
+	}
+	.head{
+		
+	}
+	.menu{
+		visibility: visible;
+		float: right;
+		margin-right: 30px;
+	}
+.skills{
+  	width:100%;
+  	font-size: 25px;
+  	text-align: center;
+  	justify-content: center;
+  	padding-left: 0px;
+  	padding: 0px;
+  	margin: 0px;
+  }
+  #about{
+  	margin-top: 460px;
+  	font-size: 100%;
+  }
+
+}
+
 @media only screen and (max-width: 768px) {
   
   .fluid-container{
@@ -479,8 +538,12 @@ flex: 33%;
   }
   .skills{
   	width:100%;
-  	font-size: 30px;
+  	font-size: 25px;
   	text-align: center;
+  	justify-content: center;
+  	padding-left: 0px;
+  	left: 10px;
+  	margin-right: 5px;
   }
   .information{
   	width: 100%;
@@ -506,7 +569,7 @@ flex: 33%;
   	justify-content: center;
   }
   #about{
-  	margin-top: 490px;
+  	margin-top: 330px;
   	font-size: 100%;
   }
 
@@ -602,7 +665,7 @@ flex: 33%;
   }
   .skills{
   	width:100%;
-  	font-size: 30px;
+  	font-size: 25px;
   	text-align: center;
   	padding: 0px;
   	margin: 0px;
@@ -640,7 +703,7 @@ flex: 33%;
   	text-align: center;
   }
   #about{
-  	margin-top: 470px;
+  	margin-top: 350px;
   	font-size: 100%;
   }
 
@@ -677,6 +740,7 @@ input[type=text]{
 			flex-direction: column;
 	}
 	.foot{
+		flex-direction: column;
 	width:100%;
 	}
 
