@@ -4,8 +4,8 @@
 }
 .portfolio{
 	font-family: Sans-serif;
-	background-color: ;
-	color:black;
+	background-color:red ;
+	color:white;
 	font-weight: bolder;
 }
 .line1{
@@ -67,12 +67,13 @@ nav ul li a{
 */
 nav{
 	display: flex;
-	padding:10px;
+	padding:0px;
 	margin:px;
 	flex-wrap: wrap;
-	border: 1px solid orange;
 	background-color: ;
-	border-bottom: 2px solid white;
+	border-bottom: 2px solid orange;
+	border-radius: 20px;
+
 
 
 }
@@ -85,13 +86,13 @@ nav div{
 nav a{
 	padding: 10px;
 	font-size: 20px;
-	color:white;
+	color:black;
 }
 nav a:link{
-	color:white;
+	color:black;
 }
 nav a:hover{
-	color:white;
+	color:orange;
 	background-color:;
 	padding: 10px;
 	text-decoration: none;
@@ -101,7 +102,7 @@ nav a:hover{
 	font-weight: bolder;
 }
 nav a:visited {
-	color:white;
+	color:black;
 
 }
 .fluid-container{
@@ -109,17 +110,19 @@ nav a:visited {
 	flex-wrap: flex;
 	flex-direction: row;
 	width:100%;
-	height: 600px;
+	height: 500px;
 }
 .profile{
 	margin-top:10px;
-	width:50%;
+	width:70%;
 	height: ;
 	background-image: url("");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	justify-content: center;
 	opacity: ;
+	background-color: ;
+	text-align: left;
 }
 .name{
 	padding-left:30px;
@@ -128,29 +131,39 @@ nav a:visited {
 	font-size:50px;
 	font-family: Calibri;
 	font-weight: bolder;
-	color:;
+	color:red;
 	opacity:0.7;
 	background-color: ;
+	text-align: left;
 }
 .skills{
 	padding:50px;
-	margin-right:0px;
-	margin-left:70px;
-	font-family: arial;
-	color:white;
-	font-size: 35px;
+	margin-right:5px;
+	margin-left:50px;
+	font-family: verdana;
+	color:gray;
+	font-weight:bold ;
+	font-size: 25px;
 	font-weight: ;
 	background-color: ;
 	text-align: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	align-items: ;
+	align-content: center;
+}
+.skills:hover{
+	background-color: ;
+	color:;
 }
 .explainer{
 	background-color: ;
 	color:black;
-	font-style: normal;
+	font-style: italic;
 	padding:20px;
 	opacity: 1.0;
-	font-family: calibri;
-	font-size: 20px;
+	font-family: ;
+	font-size: 25px;
 }
 /*
 ol{
@@ -274,6 +287,7 @@ input[type=text]{
 	flex: 50%;
 	height: 100%;
 	color:black;
+	background-color: red;
 }
 
 .fixed-position{
@@ -518,10 +532,23 @@ flex: 33%;
   	margin: 0px;
   }
   #about{
-  	margin-top: 460px;
+  	margin-top: 300px;
   	font-size: 100%;
   }
 
+}
+@media only screen and (max-width: 364px) {
+#about{
+	padding-top: 240px;
+}
+.skills{
+  	width:100%;
+  	font-size: 20px;
+  	text-align: center;
+  	padding: 0px;
+  	margin: 0px;
+  	font-weight:normal ;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -531,7 +558,9 @@ flex: 33%;
   	margin-top: -200px;
   }
   .menu{
-		visibility: hidden;
+		visibility: visible;
+		float: right;
+		margin-right: 30px;
 	}
   .profile{
   	width:100%;
@@ -569,15 +598,21 @@ flex: 33%;
   	justify-content: center;
   }
   #about{
-  	margin-top: 330px;
+  	margin-top: 280px;
   	font-size: 100%;
   }
 
   .project{
   	flex-direction: column;
+  	margin: ;
   }
   .image{
   	width:100%;
+
+  }
+  .image .header h4{
+  	text-align: left;
+  	font-size: 20px;
   }
   .side{
   	width: 100%;
