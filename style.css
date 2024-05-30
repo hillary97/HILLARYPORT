@@ -140,9 +140,9 @@ nav a:visited {
 	padding:50px;
 	margin-right:5px;
 	margin-left:50px;
-	font-family: verdana;
+	font-family: ;
 	color:gray;
-	font-weight:bold ;
+	font-weight: ;
 	font-size: 25px;
 	font-weight: ;
 	background-color: ;
@@ -218,10 +218,10 @@ li a:active{
 	color:black;
 	font-family: calibri;
 	font-size: 30px;
-	font-weight: bold;
+	font-weight: ;
 	background-color: ;
 	padding-top: 10px;
-	border: 1px solid orange;
+	border: ;
 	text-align: center;
 }
 .containment{
@@ -237,7 +237,7 @@ li a:active{
 	font-size: 30px;
 	font-weight: bold;
 	background-color: ;
-	border: 1px solid orange;
+	border: ;
 	margin-left: 30px;}
 
 ::placeholder{
@@ -282,7 +282,7 @@ input[type=text]{
 	flex: 50%;
 	height: 100%;
 	color:black;
-	background-color: red;
+	background-color: ;
 }
 
 .fixed-position{
