@@ -419,9 +419,14 @@ div.desc {
 	flex-direction: row;
 	background-color: ;
 }
+
+.experience :hover{
+	background-color: skyblue;
+}
 .ict{
 flex: 33%;
 }
+
 .pet{
 flex: 33%;
 }
