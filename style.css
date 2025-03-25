@@ -517,28 +517,28 @@ label{
 }
 input[type=text]{
 	background: transparent;
-	color: white;
+	color: black;
 	padding: 30px;
 }
 input[type=email]{
 	background: transparent;
-	color: white;
+	color: black;
 }
 textarea[type=text]{
 	background: transparent;
-	color: white;
+	color:  black;
 }
 input[type=text]:focus{
 	background: transparent;
-	color: white;
+	color: black;
 }
 input[type=email]:focus{
 	background: transparent;
-	color: white;
+	color: black;
 }
 textarea[type=text]:focus{
 	background: transparent;
-	color: white;
+	color: black;
 }
 
 .tech button{
