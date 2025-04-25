@@ -159,18 +159,18 @@ body{
 .nav-link:hover{
 	background-color:gold ;
 	display: block;
-	color: black;
+	color: red;
 	/*padding: 10px 25px;*/
 	border-bottom: px solid black;
 
 	
 }
 .nav-link{
-	color:black;
+	color:gray;
 	font-size: 15px;
 	border-radius:px ;
 	transition: 3s ease;
-	font-weight: bold;
+	font-weight: ;
 }
 .sticky{
 	position: sticky;
@@ -408,7 +408,8 @@ body{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	color: ;
 	/*animation: flow 2s;*/
-	background: ;
+	background:;
+	opacity: ;
 
 
 }
@@ -499,7 +500,7 @@ body{
 
 /*footer styling*/
 form{
-	background-color: ;
+	background-color: transparent;
 }
 .form-control{
 	background:;
@@ -512,7 +513,7 @@ form{
 
 }
 label{
-	color:black;
+	color:gray;
 	font-size: 15px;
 }
 input[type=text]{
