@@ -14,18 +14,21 @@
 	<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
 <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
 </head>
-<body>
+<body style="position: relative;">
+	<div style="position: absolute;">
+	<img width="100%" height="1000px" class="img-fluid d-block mx-auto" style="position: fixed; z-index:-1; opacity:0.7" src="images/combined.png">
+	</div>
 	<!-- Navbar-->
-	<nav id="top" class=" navbar navbar-expand-lg bg-body-tertiary ">
-		  <div class="container-fluid bg-white">
-		    <a class="navbar-brand text-dark poppins-semibold" href="#">HILLARY <span class="text-danger">PORTFOLIO</span></a>
+	<nav  id="top" class=" navbar sticy navbar-expand-lg bg-body-tertiary bg-white ">
+		  <div style="background-color:#1C75BC;"   class="container-fluid">
+		    <a class="navbar-brand text-dark poppins-bold" href="#">HILLARY <span class="text-white">PORTFOLIO</span></a>
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 		      <span  class="navbar-toggler-icon"></span>
 		    </button>
 		    <div style="" class="collapse  navbar-collapse" id="navbarTogglerDemo02">
 		      <ul class="navbar-nav justify-content-end mb-2 mb-lg-0 ">
 		        <li class="nav-item">
-		          <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
+		          <a class="nav-link active text-dark" aria-current="page" href="#home">Home</a>
 		        </li>
 		        <li class="nav-item">
 		          <a class="nav-link "href="#about" >About</a>
@@ -46,25 +49,22 @@
 		    </div>
 		  </div>
 	</nav>
-
-
 	<!-- Navbar-->
 	
-		
-	
-
 	<!-- Hero section start-->
-	<header style="background-color:" class="container flowin ">
+	<section class="container-fluid bg-white">
+	<header style="background-color:" class="container flowin bg-white ">
 		<div class="row header-section-display">
 
 			<!--first column start-->
-			<div class="col-lg-6  hero ">
-				<h5 style=" font-size:50px" class="hero-section poppins-semibold ">Hi, I'm <Span class="hero-section text-danger" style="font-size:70px ;">Hillary</Span></h5>
+			<div style="" class="col-lg-6  hero ">
+				<p class=" montserrat-regular fs-5">hi, It's me </p>
+				<h1 style=" font-size:" class="hero-section montserrat-regular"><Span class="hero-section text-danger montserrat-bold" style="font-size:70px ;">HILLARY NTHOME</Span></h1>
 				<!--<h1 class="hero-section" style="font-size:70px ;">Hillary Nthome</h1>-->
-				<h5 class="hero-section text-muted poppins-medium ">A Passionate Software Developer | creative Graphics Designer | and seasoned Hardware & Software Expert.</h5>
-				<p class="text-muted poppins-regular">
-					High level experience in web development producing quality <br>work and User friendly Websites
-				</p>
+				<p style="" class="hero-section text-muted inter-semibold fs-3 ">A Passionate Software Developer | creative Graphics Designer | and seasoned Hardware & Software Expert.</p>
+				<h6 style="text-align:justify;" class="text-muted inter-semibold">
+					High level experience in web development producing quality work, Responsive and User friendly Websites
+				</h6>
 
 				<div class="cta mt-5" style="margin: auto;">
 			<!--	<p style="width: auto; ;border:1px solid green;background-color:;opacity: 1;font-size: 20px;" class="cta call badge  p-1 m-2 text-center" >
@@ -75,7 +75,7 @@
 				<div style="margin:auto;" class=" ">						
 						<a class="p-3 cta bg-danger "  style="text-decoration: none;color:white;font-size: 20px;border-radius: 20px;border: px solid darkgreen; width:auto;margin:auto" href="https://api.whatsapp.com/send?phone=+254 797259596 " target="_blank">Get in touch<img style="border-radius: 30px;padding: 2px;" width="" height="30px" src="images/what.jpg"></a>&nbsp;&nbsp;&nbsp;<br><br><br>
 				
-						<a class="p-3 cta bg- poppins-semibold "  style="text-decoration: none;color:black;font-size:20 px;border-radius: 20px;background-color: ;width: auto;margin:auto;border: 1px solid orange;" href="hillary_resume.pdf" target="_blank" download>Download CV</a>
+						<a class="p-3 cta-download bg- inter-semibold "  style="text-decoration: none;color:black;font-size:20 px;border-radius: 20px;background-color: ;width: auto;margin:auto;border: 1px solid orange;" href="hillary_resume.pdf" target="_blank" download>Download CV</a>
 					
 				</div>
 				<!--<a class="p-3 cta "  style="text-decoration: none;color:green;font-size: 20px;border-radius: 20px;border: 2px solid darkgreen;" href="https://api.whatsapp.com/send?phone=+254 79759596 " target="_blank">Get in touch<img style="border-radius: 30px;padding: 2px;" width="" height="50px" src="images/what.jpg"></a>&nbsp;&nbsp; 
@@ -86,35 +86,46 @@
 
 			<!--Second column start-->
 			<div class=" col-lg-6 image-section">
-				<img style="width: ;" class=" hillary mx-auto d-block img-fluid" src="images/hillary2.png">
+				<br><br><br>
+				<img style="width:400px ;margin-top: 40px;transform: rotate(10deg);" class=" hillary mx-auto d-block img-fluid" src="images/hillary2.png">
 			</div>
 			<!--Second column end-->
+
 		</div>
 		<br><br>
-		<a class="text-info" style="text-decoration:none;margin-left: 20px;font-size: 20px;" href="#about"><i class="uil uil-mouse-alt-2"></i>Scroll down <i class="uil uil-arrow-down"></i></a>
+		<p class="inter-semibold"><a class="text-info" style="text-decoration:none;margin-left: 20px;font-size: 20px;" href="#about"><i class="uil uil-mouse-alt-2 "></i>Scroll down <i class="uil uil-arrow-down"></i></a></p>
 	</header>
-	<br><br><br>
+	<br>
+	</section>
 
-
-	<!-- About section start-->
 	<!-- Marquee slider-->
 	<div class="marquee">
   <div class="track">
-    <div class="contentname">&nbsp;Hillary Nthome&nbsp;Hillary Nthome </div>
+    <div class="contentname inter-semibold bg-">&nbsp;Hillary Nthome&nbsp;Hillary Nthome </div>
   </div>
 </div>
-
 	<!-- Marquee slider end-->
-	<br><br><br>
 
-	<div id="about" class="about row container">
-		
+<section class="container-fluid bg-white pb-3">
+	<div id="about" class="about row container bg-white">
 		<div class="col-lg-6  ">
-			<p style="color:black ;font-weight: ;font-size: 20px;" class="pt-4 text-center poppins-semibold ">About Me</p>
-			<div style="width: 100px;border-top: 1px solid limegreen;margin: auto" class="">&nbsp;&nbsp;&nbsp;&nbsp;</div>
-			<p class="text-center poppins-regular">My information</p>
-			<!--<p style="" class="display-6 about-content-one ">3+ Years of Experience</p>-->
-			<p class="about-content p-3 poppins-medium text-secondary">Hello, I am <span class="poppins-semibold">Hillary Nthome</span>, a passionate web developer with a knack for turning ideas into digital experiences. I specialize in creating clean, responsive, and user-friendly websites that not only look great but also function seamlessly</p>
+			
+			<br>	<br>	<br>	<br>
+			<div style="position: relative;" class="mt-5">
+
+				<img style="height:400px;width:400px ;position: relative;transform: rotate(-10deg);" class="about-image mx-auto d-block img-fluid" src="images/1.jpg">
+				<div style="z-index: 3;top: 20px;left: 10px;position: absolute;"><h2 class="bg-dark text-white p-3">Fullstack developer</h2></div>			
+			</div>
+		</div>
+
+		<div class="col-lg-6 ">
+			<br>	<br>	<br>
+			<h3 style=" ;font-weight: ;" class="pt-4 text-center text-primary fs-4 inter-medium ">About Me</h3>
+			<div style="width: 100px;border-top: 1px solid limegreen;margin: auto" class="">&nbsp;&nbsp;&nbsp;&nbsp;
+			</div>
+			<h6 class="text-center inter-medium">My information</h6>
+			<p style="" class="fs-3 text-center inter-medium ">4+ Years of Experience</p>
+			<p style="padding:30px 5px" class="about-content  text-secondary inter-regular fs-4">Hello, I am <span class="poppins-semibold">Hillary Nthome</span>, a passionate web developer with a knack for turning ideas into digital experiences. I specialize in creating clean, responsive, and user-friendly websites that not only look great but also function seamlessly</p>
 			<div class="sections about-content-one bg-danger">
 				<div>
 					<h2>4+</h2>
@@ -129,23 +140,23 @@
 					<p>Companies<br>Worked</p>
 				</div>
 			</div>
-
-		</div>
-		<div class="col-lg-6 ">
+			<!--
+			<br>	<br>	<br>	<br>
 			<div style="position: relative;" class="mt-5">
 
-				<img style="height: ;position: relative;" class="about-image mx-auto d-block img-fluid" src="images/1.jpg">
+				<img style="height: ;position: relative;transform: rotate(-10deg);" class="about-image mx-auto d-block img-fluid" src="images/1.jpg">
 				<div style="z-index: 3;top: 20px;left: 10px;position: absolute;"><h2 class="bg-dark text-white p-3">Fullstack developer</h2></div>			
 			</div>
-			
+			-->
 		</div>
 		</div>
+		</section>
 		<!--End of About Section-->
-
+<section class="container-fluid bg-white">
 <br><br><br>
 
 <!--Skills section start-->
-<div class="row container">
+<div class="row container bg-white">
 		<!--<div style="margin:;" class=" m-2 bg- ">
 			<h3 style="font-weight: bold;font-family: arial;" id="skills" class="areas p-2 text-center">Skills</h3>	
 		</div>
@@ -166,20 +177,20 @@
 		<br><br><br>
 		
 	</div>
-<h3 id="skills" class="text-center text-dark">Skills</h3>
-<p class="text-center ">Tecnical skills</p>
+<h3 id="skills" class="text-center bg-white text-dark">Skills</h3>
+<p class="text-center ">Technical skills</p>
 <br>
-<div  class="skills row mx-auto bg- pt-5 h-25">
+<div  class="skills row mx-auto bg-white  pt-5 h-25">
 	<div class="an col-lg-3 text-dark" style="">
-		<h5 class="text-danger"><span><i class="uil uil-brackets-curly"></i></span>Fullstack Developer</h5>
-		<h6 style="font-size: 12px;"class="text-muted poppins-regular">More than 4 Years</h6>
+		<h5 class="text-danger display-6 "><span><i class="uil uil-brackets-curly"></i></span>Fullstack Developer</h5>
+		<h6 style="font-size: 12px;"class="text-muted poppins-regular text-center">More than 4 Years</h6>
 			
-				<p class="justify-content-start">Conversant with, Front-end Developement, Back-End development, Databases, Web Hosting</p>
+				<p class="justify-content-start inter-regular text-muted">Conversant with, Front-end Developement, Back-End development, Databases, Web Hosting</p>
 	</div>
 	<div class="an col-lg-3 text-dark" style="border:none">
-		<h5  class="text-danger">Programming Languages</h5>
+		<h5  class="text-danger display-6 ">Programming Languages</h5>
 		<h6 style="font-size: 12px;"class="text-muted">More than 4 Years</h6>
-		<p class="justify-content-start">Java, PHP, 
+		<p class="justify-content-start inter-regular text-muted">Java, PHP, 
 					Python, Django, Node.js, React.js, 
 												Bootstrap, CSS, C#, C++, C, Kotlin, 
 												JavaScript, MySQL, SQL, ASP.Net.</p>
@@ -187,10 +198,10 @@
 			
 	</div>
 	<div class="an col-lg-3 text-dark" style="border:none">
-		<h5 class="text-danger"><i class="uil uil-illustration"></i> Graphic Designing</h5>
-<h6 style="font-size: 12px;"class="text-muted">More than 5 Years</h6>
+		<h5 class="text-danger display-6 "><i class="uil uil-illustration"></i> Graphic Designing</h5>
+<h6 style="font-size: 12px;"class="text-muted text-center">More than 5 Years</h6>
 
-				<p class="justify-content-start">Adobe Photoshop, Illustrator, Figma, Canva, Indesign</p>
+				<p class="justify-content-start inter-regular text-muted">Adobe Photoshop, Illustrator, Figma, Canva, Indesign</p>
 				
 			
 	</div>
@@ -198,9 +209,10 @@
 
 </div>
 <br><br><br><br>
-<div style="" class="qualifications bg-dark">
+</section>
+<div style="" class="qualifications inter-medium bg-dark">
 <!--Qualifications Section Start-->
-<h3 style="color:red" id="skills" class="text-center  pt-5 ">Qualifications</h3>
+<h3 style="color:white" id="skills" class="text-center  pt-5 ">Qualifications</h3>
 <p class="text-center text-secondary">My Personal journey</p>
 <br>
 		<!--<div class="journey">
@@ -233,13 +245,13 @@
 							<p>Mount Kenya University | 2016-2018</p>
 							</div>
 						<div>
-								<h1 class="bg-white p-3 text-danger" style="position:absolute;top: 50%;right:0px;opacity: ;"><i style="" class="uil uil-graduation-cap"></i>My Education Journey</h1>
+								<h1 class="bg-white p-3 text-danger inter-semibold" style="position:absolute;top: 50%;right:0px;opacity: ;"><i style="" class="uil uil-graduation-cap "></i>My Education Journey</h1>
 							</div>
 					</div>		
 				</div>
 
 
-				<div id="eduwork" class="eduwork container  mx-auto bg-white mt-3 pt-4">
+				<div id="eduwork" class="eduwork container inter-medium  mx-auto bg-white mt-3 pt-4">
 				<!--<img id="" class="img-fluid mx-auto d-block" src="images/education.png">-->
 				<div style="position:relative;height: 700px; " class="masomo mas col-md-8 text-dark mx-auto poppins-semibold">
 						<div class="ma" style="position:absolute;right:10px;top: 40px;">
@@ -263,7 +275,7 @@
 							<p>Intern/Volunteer/ ICT Officer | 2018-2021</p>
 							</div>
 						<div>
-								<h1 class="bg-danger p-3 text-white poppins-semibold" style="position:absolute;top: 50%;left:-20px;opacity: ;"><i style="" class="uil uil-briefcase-alt"></i>Work</h1>
+								<h1 class="bg-danger p-3 text-white inter-semibold" style="position:absolute;top: 50%;left:-20px;opacity: ;"><i style="" class="uil uil-briefcase-alt"></i>Work</h1>
 							</div>
 					</div>		
 				</div>
@@ -271,23 +283,23 @@
 
 
 			</div>
-
+<section class="container-fluid bg-white">
 		<!--My services-->
 		<br><br><br>
-		<h4 id="services" style="font-weight:bold;color: black;font-family: arial;" class="text-center pt-5 pb-3 ">Services</h4>
+		<h3 id="services" style="color: black;font-family: arial;" class="inter-medium text-center pt-5 pb-3 ">Services</h3>
 		<div style="width: 100px;border-top: 1px solid black;margin: auto" class="">&nbsp;&nbsp;&nbsp;&nbsp;</div>
 
 		</div>
 
-<div style="margin:auto;background-color: ;" class="row container ">
+<div style="margin:auto;background-color:white ;" class="row container inter-medium">
 	<div class="col-md-4">
-		<div class="anim text-center poppins-semibold text-">
-							<img width="100" height="100" src="images/browser.png">
-							<h6 class="pt pb-3">Technical support</h6>
-							<button style="border:none;border-radius:10px" class="bg-success text-white p-2" data-bs-toggle="collapse" data-bs-target="#demo1">Read More</button>
+		<div class="anim text-center inter-semibold text-">
+							<img width="30" height="50" src="images/browser.png">
+							<h5 class="pt pb-3">Technical support</h5>
+							<button style="border:none;border-radius:10px" class="bg-success text-white p-2" data-bs-toggle="collapse" data-bs-target="#demo1">Read More...</button>
 
-						<div id="demo1" class="collapse">
-						<ul style="text-align: justify;padding: 10px;">
+						<div id="demo1" class="collapse inter-regular">
+						<ul style="text-align: ;padding: 10px;">
 							<li>Resolve technical issues, installs software/hardware, and provides user assistance.</li>
 							<li>Handle customer support tickets and basic troubleshooting.</li>
 							<li>Manage networks, security configurations, and connectivity issues.</li>
@@ -298,33 +310,33 @@
 						</div>
 	</div>
 	<div class="col-md-4">
-		<div class="anim text-center poppins-semibold"  >
-							<img width="100" height="100" src="images/front-end.png">
-							<h6 class="pt pb-3">Web Development</h6>
-							<button style="border:none;border-radius:10px" class="bg-success text-white p-2" data-bs-toggle="collapse" data-bs-target="#demo2">Read More</button>
+		<div class="anim text-center inter-semibold"  >
+							<img width="30" height="50" src="images/front-end.png">
+							<h5 class="pt pb-3">Web Development</h5>
+							<button style="border:none;border-radius:10px" class="bg-success text-white p-2" data-bs-toggle="collapse" data-bs-target="#demo2">Read More...</button>
 
-						<div id="demo2" class="collapse">
-						<ul style="text-align: justify;padding: 10px;">
-							<li>Designs the visual layout and user experience (HTML, CSS, JavaScript).</li>
-							<li>Works with server-side technologies (PHP, Node.js, Python, databases).</li>
-							<li>Manages both front-end and back-end development.</li>
-							<li>Designs user interfaces and ensures a smooth user experience.</li>
-							<li>Specializes in building websites using WordPress CMS.</li>
-							<li>Builds online stores using Shopify, WooCommerce, or Magento.</li>
-							<li>Secures websites from vulnerabilities and attacks.</li>
-							<li>Automates deployment, server management, and scaling of applications.</li>
+						<div id="demo2" class="collapse inter-regular">
+						<ul style="text-align: ;padding: 10px;">
+							<li>Design the visual layout and user experience (HTML, CSS, JavaScript).</li>
+							<li>Work with server-side technologies (PHP, Node.js, Python, databases).</li>
+							<li>Manage both front-end and back-end development.</li>
+							<li>Design user interfaces and ensures a smooth user experience.</li>
+							<li>Specialize in building websites using WordPress CMS.</li>
+							<li>Build online stores using Shopify, WooCommerce, or Magento.</li>
+							<li>Secure websites from vulnerabilities and attacks.</li>
+							<li>Automate deployment, server management, and scaling of applications.</li>
 						</ul>
 						</div>
 						</div>
 	</div>
-	<div class="col-md-4">
-		<div class="anim text-center poppins-semibold"   >
-							<img width="100" height="100" src="images/illustration.png">
-							<h6 class="pt pb-3">Graphic Designing</h6>
-							<button style="border:none;border-radius:10px" class="bg-danger text-white p-2" data-bs-toggle="collapse" data-bs-target="#demo3">Read More</button>
+	<div class="col-md-4 ">
+		<div class="anim text-center inter-semibold"   >
+							<img width="30" height="50" src="images/illustration.png">
+							<h5 class="pt pb-3 ">Graphic Designing</h5>
+							<button style="border:none;border-radius:10px" class="bg-danger text-white p-2" data-bs-toggle="collapse" data-bs-target="#demo3">Read More...</button>
 
-						<div id="demo3" class="collapse">
-						<ul style="text-align: justify;padding: 10px;">
+						<div id="demo3" class="collapse inter-regular">
+						<ul style="text-align: ;padding: 10px;">
 							<li>Design engaging visuals for platforms like Instagram, Facebook, and LinkedIn.</li>
 								<li>Work on product packaging and labeling.</li>
 									<li>Specializes in data visualization and storytelling through graphics.</li>
@@ -337,26 +349,31 @@
 	</div>
 	
 </div>
+</section>
 <!-- End of services section-->
 
 <!-- Projects section start-->
+<section class="container-fluid bg-white inter-medium">
 <br><br><br><br>
 <h3 id="projects" class="text-center text-dark">Portfolio</h3>
 <p class="text-center poppins-regular text-dark">Most Recent Work</p>
 		<div style="width: 100px;border-top: 1px solid black;margin: auto" class="">&nbsp;&nbsp;&nbsp;&nbsp;</div>
-
+<div style="border:4px solid #1C75BC; position:relative" class="container">
+	<img style="opacity:0.7;position:relative;transform:rotate(0deg);margin: 15px;" class="mx-auto d-block img-fluid" width="800" height="600" src="images/combined.png">
+</div>
+<br>
 <div class="items container row mx-auto ">
 <div style="margin:5px;position: relative;" class="col-sm-5">
 	<img class="img-fluid mx-auto d-block" style="width:300px;height:300px;border-radius:20px;position: relative;" src="images/4.jpg">
-	<h6 style="padding-left: 25px;border-left: 10px solid red;" class="text-dark text-center">Mwalimu Transfers</h6>
-	<p class="p-4 pt-1 poppins-regular"> Responsive touring services website, that allows users to book vehicle services and give reviews</p>
-	<a class="bg-success text-white p-2 poppins-semibold" style="text-decoration:none;position:absolute;z-index: 1;top: 20px;left: 45%;" href="http://mwalimuairporttransferandtaxi.liveblog365.com/">Demo <i class="uil uil-arrow-up"></i></a>
+	<h4 style="padding: 20px;border-left: px solid red;" class="text-dark text-center">Mwalimu Transfers</h4>
+	<p class="p-4 pt-1 fs-5"> Responsive touring services website, that allows users to book vehicle services and give reviews</p>
+	<a class="bg-info text-white p-3" style="text-decoration:none;position:absolute;z-index: 1;top: 20px;left: 45%;" href="http://mwalimuairporttransferandtaxi.liveblog365.com/">Demo <i class="uil uil-arrow-up"></i></a>
 </div>
 <div style="margin:5px;position:relative" class="col-sm-5">
-	<img class="img-fluid mx-auto d-block" style="width:400px;height:300px;border-radius:20px;position: relative;" src="images/5.jpg">
-	<h6 style="padding-left: 25px;border-left: 10px solid red;" class="text-dark text-center">Local Train Ticketing System</h6>
-	<p class="p-4 pt-1 poppins-regular"> Responsive website, that allows travellers to book train tickets after creating accounts, get services and give reviews</p>
-	<a class="bg-success text-white p-2 poppins-semibold" style="text-decoration:none;position:absolute;z-index: 1;top: 20px;left: 45%;" href="http://mwalimuairporttransferandtaxi.liveblog365.com/">Demo <i class="uil uil-arrow-up"></i></a>
+	<img class="img-fluid mx-auto d-block" style="width:300px;height:300px;border-radius:20px;position: relative;" src="images/5.jpg">
+	<h4 style="padding: 20px;border-left: px solid red;" class="text-dark text-center">Local Train Ticketing System</h4>
+	<p class="p-4 pt-1 fs-5"> Responsive website, that allows travellers to book train tickets after creating accounts, get services and give reviews</p>
+	<a class="bg-info text-white p-3 " style="text-decoration:none;position:absolute;z-index: 1;top: 20px;left: 45%;" href="http://mwalimuairporttransferandtaxi.liveblog365.com/">Demo <i class="uil uil-arrow-up"></i></a>
 </div>
 	<!--
 	
@@ -394,17 +411,21 @@
 <!--Start of Contact session-->
 <br><br><br>
 <hr>
-<div style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " id="contact" class=" container bg-white row mt-2 mx-auto">
-		<h3 id="skills" class="text text-dark pt-5">Get In Touch</h3>
-<p style="padding-left:15px" class="text text-secondary pb-3 ">Want to talk to me, i'd love to hear from you, this is how you can reach me.</p>
+
+<div style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); " id="contact" class=" container-fluid bg-white row mt-2 mx-auto">
+		<h3 id="" class="text-center text-dark pt-5 pb-3">Get In Touch</h3>
 	
-	<div style="width:;margin-left:10px;border:;border-bottom:;padding: 30px;padding-top: 10px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="col-sm-4 mx-auto text-secondary bg-white pb-3  ">
+	<div style="width:;margin-left:10px;border:;border-bottom:;padding: 30px;padding-top: 10px;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);margin-bottom:10px ;" class="col-sm-4 mx-auto text-secondary bg-white pb-3  ">
+
+		<!--
 			<h6><i class="uil uil-phone-volume"></i> Call me</h6>
 		<p style="margin-left: 20px;font-size: 12px;" class="poppins-regular text-secondary ">0797259596</p>
 		<h6><i class="uil uil-envelope-check"></i> Email</h6>
 		<p style="margin-left: 20px;font-size: 12px;" class="poppins-regular text-secondary">hillarynthome97@gmail.com</p>
 		<h6><i class="uil uil-location-pin-alt"></i> Location</h6>
 		<p style="margin-left: 20px; font-size: 12px;" class="poppins-regular text-secondary">Mlolongo, Along Mombasa Road</p>
+		-->
+		<p style="padding-top:45px; text-align: right;" class="justify-content-end text-secondary pb-3 inter-regular display-6 ">Want to talk to me, i'd love to hear from you, this is how you can reach me.</p>
 		
 
 	</div>
@@ -423,50 +444,66 @@
 	  
 	</div>
   -->
-	<div style="border-left: ;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="col-sm-4 mx-auto bg-white ">
-		<h5 style="border-bottom: ;" class="poppins-regular text-muted text p-2">Send Me a Message</h5>
+	<div style="border-left: ;" class="col-sm-4 mx-auto bg-white ">
+		<br><br>
 		<form action="https://formsubmit.co/hillarynthome137@gmail.com" method="POST" style="background-color:  ;" class="form-control bg-">
     <div class="form-floating mb-3 mt-3">
       <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
-      <label for="email">Enter Email Address</label>
+      <label class="roboto-semibold" for="email">Email Address</label>
     </div>
     <div class="form-floating mt-3 mb-">
 		<textarea class="form-control" cols="" rows="4" type="text" name="message" placeholder="Enter your Message" required></textarea>      
-		<label for="pwd">Enter Message</label>
+		<label class="roboto-semibold" for="pwd">Message</label>
     </div>
+    <br>
     <button type="submit" class="btn btn-primary bg-info">Send Message</button>
   </form>
 	  
 	</div>
+	<br><br>
 </div>
+
+</section>
+
 <a class="navigator bg-info" href="#top"><i class="uil uil-arrow-up"></i></a>
-<div class="foot container-fluid bg-dark text-white">
-	<div class="row container mx-auto">
-	<div class="col-sm-4 p-3 text-center">
-		<h4>Hillary Nthome</h4>
-		<p style="margin-left:20px">Fullstack Developer <br> Graphics designer <br> Technical Support Specialist</p>
+<div style="background-color:#1C75BC" class="foot container-fluid text-white">
+	<div class="row container mx-auto inter-medium">
+	<div class="col-sm-3 p-3 ">
+		<h5 class="">Hillary Nthome</h5>
+		<p style="margin-left:20px;border-bottom: 2px solid white;padding-bottom: 5px;">> Fullstack Developer</p>
+		<p style="margin-left:20px;border-bottom: 2px solid white;padding-bottom: 5px;">> Graphics designer </p>
+		<p style="margin-left:20px;border-bottom: 2px solid white;padding-bottom: 5px;">> Technical Support Specialist</p>
 	</div>
-	<div class="col-sm-4 poppins-regular p-3 text-center">
-		<a style="text-decoration:none;font-size:px;padding:10px;color: white;" href="#home">Home</a>|
-		<a style="text-decoration:none;font-size:px;padding:10px;color: white;" href="#about">About </a>|
-		<a style="text-decoration:none;font-size:px;padding:10px;color: white;" href="#services">Services </a>|
-		<a style="text-decoration:none;font-size:px;padding:10px;color: white;" href="#projects">Projects </a>|
+	<div class="col-sm-3 p-3 inter-regular">
+		<h5>Get In Touch</h5>
+		<p style="margin-left:20px">Location: Mlolongo, Along Mombasa Road,</p>
+		<p style="margin-left:20px">Tel: 0797259596</p>
+		<p style="margin-left:20px">Email: hillarynthome97@gmail.com</p>
+
+	</div>
+	<div class="col-sm-3 inter-regular p-3 ">
+		<h5>Usefull Links</h5>
+		<a style="text-decoration:none;font-size:px;padding:10px;color: white;" href="#home">Home</a><br>
+		<a style="text-decoration:none;font-size:px;padding:10px;color: white;" href="#about">About </a><br>
+		<a style="text-decoration:none;font-size:px;padding:10px;color: white;" href="#services">Services </a><br>
+		<a style="text-decoration:none;font-size:px;padding:10px;color: white;" href="#projects">Projects </a><br>
 		<a style="text-decoration:none;font-size:px;padding:10px;color: white;" href="#contact">Contact </a>
 	</div>
-	<div class="col-sm-4 poppins-regular p-3 text-center">
+	<div class="col-sm-3  p-3 ">
+		<h5 class="inter-medium">Social Media Links</h5>
 		<a  href="mailto:hillarynthome97@gmail.com">
    		 <img class="p-2" src="https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=Gmail&logoColor=white" alt="Gmail Badge"/>
   		</a>
-  		&nbsp;&nbsp;
+  		<br>
   		<a  href="https://github.com/hillary97">
     <img class="p-2" src="https://img.shields.io/badge/Github-black?style=for-the-badge&logo=github&logoColor=white" alt="Github Badge"/>
-				</a>&nbsp;&nbsp;
+				</a><br>
     <a  href="https://www.linkedin.com/in/hillary-nthome-357211218">
     <img class="p-2" src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-    </a><a href="https://api.whatsapp.com/send?phone=+254 797 259 596"><img style="border-radius: 40px;" width="50px" height="50px" src="images/what.jpg"></a>
+    </a><br><a href="https://api.whatsapp.com/send?phone=+254 797 259 596"><img style="border-radius: 40px;" width="50px" height="50px" src="images/what.jpg"></a>
 	</div>
 	</div>
-	<p style="background-color: ;height: px;color:white; font-weight: ;padding: 5px;margin-bottom: 0px;" class="text-center poppins-semibold" >Designed & Developed by Hillary Nthome <br> © 2025 All Rights Reserved</p>
+	<p style="background-color: ;height: px;color:white; font-weight: ;padding: 5px;margin-bottom: 0px;" class="text-center inter-regular" >Designed & Developed by Hillary Nthome <br> © 2025 All Rights Reserved</p>
 </div>
 
 

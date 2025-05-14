@@ -3,6 +3,93 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.montserrat-thin {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.montserrat-medium {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-semibold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.inter-medium {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.inter-semibold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.roboto-semibold {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 .poppins-thin {
   font-family: "Poppins", sans-serif;
   font-weight: 100;
@@ -115,8 +202,10 @@
 
 
 
+
 body{
 	color: gray;
+	
 }
 .hero{
 	margin:auto;
@@ -153,24 +242,29 @@ body{
 }
 .nav-item{
 	border-right: ;
-	padding: 12px 20px;
-	margin: 10px;
+	padding: 12px 10px;
+	margin: 5px;
 }
 .nav-link:hover{
-	background-color:gold ;
+	background-color: ;
 	display: block;
 	color: red;
 	/*padding: 10px 25px;*/
-	border-bottom: px solid black;
+	border-bottom: 1px solid black;
+
+
 
 	
 }
 .nav-link{
-	color:gray;
-	font-size: 15px;
+	color:white;
+	font-size: 16px;
 	border-radius:px ;
 	transition: 3s ease;
-	font-weight: ;
+	font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-stretch: expanded;
 }
 .sticky{
 	position: sticky;
@@ -184,6 +278,10 @@ body{
 }
 .flowin :hover .hero-section{
 	animation: heroo 2s;
+}
+.cta-download:hover{
+	background-color: gold;
+	color: black;
 }
 .flowin :hover .cta{
 	animation: hero-call-to-action 2s;
@@ -226,18 +324,20 @@ body{
   position: relative;
   width: 100vw;
   max-width: 100%;
-  height: 350px;
+  height: 200px;
   overflow-x: hidden;
   background-color: ;
+  margin: 0px;
+  opacity:;
 }
 .contentname{
-	font-size: 180px;
-	color:darkred;
+	font-size: 130px;
+	color: #1C75BC;
 	font-family:;
 	font-stretch: ultra-expanded;
 	opacity: 1;
 	font-weight: bolder;
-	padding: 30px 30px;
+	padding: 0px 10px;
 	text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -513,13 +613,14 @@ form{
 
 }
 label{
-	color:gray;
+	color:black;
 	font-size: 15px;
 }
 input[type=text]{
 	background: transparent;
 	color: black;
 	padding: 30px;
+	border: 2px solid black ;
 }
 input[type=email]{
 	background: transparent;
@@ -528,6 +629,7 @@ input[type=email]{
 textarea[type=text]{
 	background: transparent;
 	color:  black;
+	border: 2px solid black ;
 }
 input[type=text]:focus{
 	background: transparent;
