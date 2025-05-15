@@ -229,6 +229,7 @@ body{
 }
 .sections{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	
@@ -257,7 +258,7 @@ body{
 	
 }
 .nav-link{
-	color:white;
+	color:blue;
 	font-size: 16px;
 	border-radius:px ;
 	transition: 3s ease;
@@ -324,18 +325,18 @@ body{
   position: relative;
   width: 100vw;
   max-width: 100%;
-  height: 200px;
+  height: 160px;
   overflow-x: hidden;
   background-color: ;
   margin: 0px;
   opacity:;
 }
 .contentname{
-	font-size: 130px;
-	color: #1C75BC;
+	font-size: 100px;
+	color: black;
 	font-family:;
 	font-stretch: ultra-expanded;
-	opacity: 1;
+	opacity: 0.6;
 	font-weight: bolder;
 	padding: 0px 10px;
 	text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -356,17 +357,18 @@ body{
 
 /* end of marquee slider */
 .about-content{
-	font-size: 15px;
+	font-size: ;
 	font-family: ;
 	color:black;
-	font-stretch: ultra-expanded;
+	font-stretch:;
 	font-weight: ;
-	text-align: center;
+	text-align: left;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .about-content-one{
 	padding:;
 	font-weight: ;
+	text-align: center;
 	color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -618,9 +620,9 @@ label{
 }
 input[type=text]{
 	background: transparent;
-	color: black;
+	color: gray;
 	padding: 30px;
-	border: 2px solid black ;
+	border: 2px solid gray ;
 }
 input[type=email]{
 	background: transparent;
@@ -628,8 +630,8 @@ input[type=email]{
 }
 textarea[type=text]{
 	background: transparent;
-	color:  black;
-	border: 2px solid black ;
+	color:  gray;
+	border: 2px solid gray ;
 }
 input[type=text]:focus{
 	background: transparent;
