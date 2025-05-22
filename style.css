@@ -264,7 +264,7 @@ body{
 	transition: 3s ease;
 	font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 600;
   font-stretch: expanded;
 }
 .sticky{
@@ -368,7 +368,7 @@ body{
 .about-content-one{
 	padding:;
 	font-weight: ;
-	text-align: center;
+	text-align:;
 	color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
