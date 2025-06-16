@@ -682,3 +682,9 @@ textarea[type=text]:focus{
 	margin: 10px 20px;
 	padding: 10px 40px;
 }
+/*
+/*.kaman{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}*/
