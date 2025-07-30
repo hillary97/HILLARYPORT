@@ -258,7 +258,7 @@ body{
 	
 }
 .nav-link{
-	color:blue;
+	color:black;
 	font-size: 16px;
 	border-radius:px ;
 	transition: 3s ease;
@@ -333,7 +333,9 @@ body{
 }
 .contentname{
 	font-size: 100px;
-	color: black;
+	color: transparent;
+	background-image: linear-gradient(to right, red, blue);
+	background-clip: text;
 	font-family:;
 	font-stretch: ultra-expanded;
 	opacity: 0.6;
@@ -357,13 +359,12 @@ body{
 
 /* end of marquee slider */
 .about-content{
-	font-size: ;
+	font-size:20px ;
 	font-family: ;
 	color:black;
 	font-stretch:;
 	font-weight: ;
-	text-align: left;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 .about-content-one{
 	padding:;
@@ -428,12 +429,20 @@ body{
 	padding: 30px;
 	font-weight: ;
 	margin: 10px;
+	box-shadow: ;
+
+
+}
+.skills .an:hover{
+	padding: 30px;
+	font-weight: ;
+	margin: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
 }
 .mas{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 	padding: 10px;
 	margin-top: 20px;
 }
@@ -464,8 +473,8 @@ body{
   }
   to { transform:rotate(360deg);
   	opacity: 1;
-  	width: 100%;
-  	height: 400px;
+  	width: 40%;
+  	height: px;
   }
 }
 
